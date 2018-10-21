@@ -9,9 +9,9 @@ This skill is a custom alexa skill using NodeJS with AWS Lambda and will make us
 To use the code in this skill you will need:-
 
 <ol><li>An AWS account with an IAM role set up to allow your Lambda to execute</li>
-  <li>You will need an [amazon developer account](https://developer.amazon.com/) to create your custom skill.</li>
+  <li>You will need an amazon developer account from (https://developer.amazon.com/) to create your custom skill.</li>
   <li>An OSM account with leader access which has been API enabled (request this from OSM support who wil provide you with an API id and token)</li>
-<li>Install npm and have used it to fetch and install [amazon-date-parser](https://www.npmjs.com/package/amazon-date-parser/)
+<li>Install npm and have used it to fetch and install amazon-date-parser
 
 <pre><code>npm install amazon-date-parser</code></pre></li></ol>
 
