@@ -15,10 +15,10 @@ module.exports.CUBS_SECTION_ID = "<OSM Section Id for Cubs>";
 module.exports.CUBS_CURRENT_TERM = "<OSM term Id for the current Cubs term>";
 
 module.exports.BEAVERS_SECTION_ID = "<OSM Section Id for Beavers>";
-module.exports.BEAVERS_CURRENT_TERM = "<OSM term Id for the current Beavers term";
+module.exports.BEAVERS_CURRENT_TERM = "<OSM term Id for the current Beavers term>";
 
 module.exports.SCOUTS_SECTION_ID = "<OSM Section Id for Scouts>";
-module.exports.SCOUTS_CURRENT_TERM = "<OSM term Id for the current Scouts term";
+module.exports.SCOUTS_CURRENT_TERM = "<OSM term Id for the current Scouts term>";
 
 module.exports.OSM_APP_ID = "<OSM App Id - contact OSM Support for your Id>";
 module.exports.OSM_TOKEN = "<OSM token - contact OSM support for yours>";
