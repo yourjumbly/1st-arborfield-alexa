@@ -74,6 +74,9 @@ module.exports.OSM_PASSWORD = "&lt;OSM password for the email above&gt;";
   
   
   <h2>Ideas for the future</h2>
+  <li>Tidy up the repeated code when checking dates</li>
+  <li>Use JQuery or equivalent to find events within the JSON response from OSM</li>
+  <li>Speed things up by removing some of the log statements</li>
   <li>Apply conversation to ask what day someone is interested in? or whether they are interested in cubs/scouts/beavers</li>
   </ul>
   
