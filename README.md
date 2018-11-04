@@ -28,8 +28,15 @@ To configure your Alexa skill you will need to define the following things when 
 </ul>
 
 Our alexa skill invocation name is "first arborfield scouts"
-As well as the default intents, we created a custom intent called "cubs" which has three utterances:-
-<ul><li>what's the plan for {section} {EventDate}</li>
+As well as the default intents, we created a custom intent called "cubs" (because originally we were just catering for cubs) which has a number of utterances:-
+<ul>
+  <li>what's happening {EventDate} at {section}</li>
+  <li>what's the plan for {section}</li>
+  <li>what's on the plan {section} {EventDate}</li>
+  <li>what's on the plan {section}</li>
+  <li>what's on {section} {EventDate}</li>
+  <li>what's on {section}</li>
+  <li>what's the plan for {section} {EventDate}</li>
   <li>what's happening at {section} {EventDate}</li>
   <li>what's on at {section} {EventDate}</li></ul>
     
@@ -40,7 +47,7 @@ We also created a custom slot called "section" which can be either "Cubs", "Beav
 <h2>Lambda</h2>
 The code to fetch the scouting events runs inside AWS Lambda using NodeJS 8.10.  You'll need to create a custom Lambda and upload the code from this repository as a zip file into your Lambda.
 
-Remember to change the following values in configuration.js before saving your Lambda:
+Remember to change the following values in configuration.js before saving your Lambda:</br>
 
 <pre><code>
 module.exports.APP_ID = "amzn1.ask.skill.&lt;your skill id here - get this from the amazon developer console&gt;";
